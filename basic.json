@@ -1,8 +1,14 @@
 
-{"data":{"front":"a","back":"b"}}
-{"data":{"front":"d","back":"d"}}
-{"data":{"front":"a","back":"d"}}
-{"data":{"front":"d","back":"d"}}
-{"data":{"front":"d","back":"h"}}
-{"data":{"front":"d","back":"b"}}
-{"data":{"front":"d","back":"d"}}
+{"type":{"text":"f","cloze":"f"},"partial":" ... "}
+{"partial":"this is a  ... "}
+{"partial":" ...  is a test"}
+{"type":{"front":"is a test","back":"test"}}
+undefined
+{"partial":" ... "}
+{"partial":" ...  is a"}
+{"partial":"this is a  ... "}
+{"partial":"this is a  ... "}
+{"type":"cloze","text":"this is a test","cloze":"this"}
+undefined
+{"type":"basic","front":"test","back":"tessssst"}
+{"type":"cloze","text":"this is","cloze":"is"}
