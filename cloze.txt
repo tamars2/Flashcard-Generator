@@ -1,3 +1,0 @@
-
-[object Object]
-{"text":"this is a test","cloze":"test","clozeDeleted":"this is a  ... ","type":"cloze"}
