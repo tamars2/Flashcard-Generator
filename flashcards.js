@@ -70,7 +70,7 @@ function addCards() {
     	        {
         	        type: 'input',
             	    name: 'cloze',
-					message: 'What would you like deleted from your cloze card?'
+            	    message: 'What would you like deleted from your cloze card?'
             	}
         	]);
     	}
@@ -104,7 +104,7 @@ function addCards() {
 //function for writing data to the .txt file
 function writeFile(cardData) {
 	fs.appendFile('./log.txt', "\r\n" + JSON.stringify(cardData), 'utf8', function (error, data) {
-   		});
+   	});
 }
 //run the API at least one time
 addCards();
